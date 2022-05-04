@@ -1,0 +1,432 @@
+
+
+
+@media (min-width: 400px) and (max-width: 576px) { 
+
+    .travel-site .letsGo:before {
+    display: none;
+}
+
+.banner .banner-cnt {
+    text-align: center;
+}
+.banner .banner-cnt h1 {
+    font-size: 30px;
+}
+
+.banner .banner-cnt h5 {
+    font-size: 18px;
+}
+
+.banner .banner-cnt p {
+    font-size: 0px;
+   
+}
+
+.travel-site .banner {
+    padding-bottom: 13px;
+}
+
+.letgo-cnt p {
+    font-size: 16px;
+    padding-bottom:0px;
+}
+
+.banner .btn.banner-btn {
+    font-size: 12px;
+    padding: 6px 22px;
+}
+.banner .banner-slied-box {
+    top: 50%;
+}
+
+.banner .owl-prev {
+    width: 24px;
+    height: 43px;
+}
+
+.banner .owl-next {
+    width: 24px;
+    height: 43px;
+}
+.banner .owl-dots {
+    bottom: 10px;
+}
+
+.card-btn-s .card-btn {
+    padding: 24px 48px;
+    font-size: 24px;
+    margin-top: 23px;
+}
+
+.letgo-cnt h2 {
+    font-size: 32px;
+}
+
+.discount {
+    margin-top: 34px;
+}
+
+.discount .discount-cnt {
+    max-width: 571px;
+    padding: 5px 0 24px 20px;
+}
+
+.discount .discount-cnt h2 {
+    font-size: 36px;
+}
+
+.discount .discount-cnt p {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+.discount .discount-btn {
+    padding: 8px 31px;
+    font-size: 17px;
+}
+
+
+.janruary .january-cnt {
+    max-width: 736px;
+    padding: 5px 0 24px 20px;
+}
+
+.janruary .january-cnt h2 {
+    font-size: 33px;
+    
+}
+
+.janruary .january-cnt p {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+.janruary .january-btn {
+    padding: 8px 31px;
+    font-size: 17px;
+}
+
+.travel-site .testimonial:before {
+    display: none;
+}
+
+.testimonial .fancy span:before, .fancy span:after {
+    width: 65px;
+}
+
+.slied .card {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.slied .slied-cnt p {
+    padding-bottom: 8px;
+}
+
+.testimonial-cnt p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+.fromS .form-group input {
+    width: 100%;
+}
+
+.fromS .form-group .subscribe {
+    font-size: 19px;
+    padding: 23px 30px;
+    right: 15px;
+}
+
+
+.fromS .title p {
+    font-size: 16px;
+}
+
+
+.travel-site .fromS {
+    margin-top: 41px;
+ }
+
+
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .banner .banner-cnt {
+    text-align: center;
+}
+.banner .banner-cnt h1 {
+    font-size: 43px;
+}
+
+.banner .banner-cnt p {
+    font-size: 0px;
+   
+}
+.banner .banner-slied-box {
+    top: 50%;
+}
+
+.banner .owl-prev {
+    width: 24px;
+    height: 43px;
+}
+
+.banner .owl-next {
+    width: 24px;
+    height: 43px;
+}
+.banner .owl-dots {
+    bottom: 10px;
+}
+
+.travel-site .letsGo:before {
+    display: none;
+}
+
+.letsGo .card .card-cnt h5 {
+    font-size: 20px;
+}
+
+.letsGo .card .card-cnt p {
+    font-size: 11px;
+    padding-bottom: 0px;
+}
+.travel-site .banner {
+    padding-bottom: 31px;
+}
+
+.card-btn-s .card-btn {
+    padding: 20px 42px;
+    margin-top: 29px;}
+
+
+.discount .discount-cnt {
+    padding: 122px 0 0 15px;
+}
+
+
+.discount .discount-cnt h2 {
+    font-size: 23px;
+}
+
+
+.discount .discount-cnt p {
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+
+.discount .discount-btn {
+    padding: 10px 27px;
+    font-size: 14px;
+}
+
+
+.janruary .january-cnt {
+    padding: 203px 0px 0px 15px;
+}
+
+.janruary .january-cnt h2 {
+    font-size: 24px;
+    padding-bottom: 4px;
+}
+
+.janruary .january-cnt p {
+    font-size: 11px;
+}
+
+.janruary .january-btn {
+    padding: 10px 27px;
+    font-size: 14px;
+}
+
+.discount {
+    margin-top: 25px;
+}
+
+.slied .slied-cnt p {
+    font-size: 10px;
+    line-height: 14px;
+    padding-bottom: 24px;
+}
+
+.travel-site .testimonial:before {
+    display: none;
+}
+
+.testimonial-cnt p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fromS .form-group input {
+    width: 100%;
+}
+
+.fromS .form-group .subscribe {
+    font-size: 16px;
+    padding: 23px 31px;
+}
+
+
+
+
+ }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .banner .banner-cnt h1 {
+    font-size: 53px;
+}
+.banner .banner-slied-box {
+    left: 103px;
+    top: 42%;
+}
+
+.banner .banner-cnt p {
+    font-size: 0;
+}
+
+.banner .owl-dots {
+    bottom: 27px;
+}
+.letsGo .card .card-cnt p {
+    font-size: 15px;
+}
+
+.travel-site .letsGo:before {
+    top: 25%;
+}
+
+.card-btn-s .card-btn {
+    padding: 26px 61px;
+    margin-top: 38px;
+}
+.discount {
+    margin-top: 33px;
+}
+
+.discount .discount-cnt {
+    padding: 194px 0 0 20px;
+}
+
+.discount .discount-cnt h2 {
+    font-size: 37px;
+}
+
+.discount .discount-cnt p {
+    font-size: 14px;
+    
+}
+
+
+
+.discount .discount-btn {
+    padding: 8px 37px;
+    font-size: 23px;
+}
+
+
+.janruary .january-cnt {
+    padding: 203px 0px 0px 20px;
+}
+
+.janruary .january-cnt h2 {
+    font-size: 37px;
+    
+}
+
+.janruary .january-cnt p {
+    font-size: 17px;
+}
+
+
+
+.janruary .january-btn {
+    padding: 8px 33px;
+    font-size: 22px;
+}
+
+.slied .slied-cnt p {
+    font-size: 11px;
+    line-height: 22px;
+    
+}
+
+.fromS .form-group input {
+    width: 100%;
+}
+
+.fromS .form-group .subscribe {
+    font-size: 16px;
+    padding: 23px 31px;
+}
+
+
+
+
+ }
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+       /* banner */
+
+.banner .banner-slied-box {
+    left: 101px;
+}
+
+.discount .discount-cnt {
+    padding: 179px 0 0 20px;
+}
+
+.discount .discount-cnt h2 {
+    font-size: 44px;
+}
+
+.discount .discount-cnt p {
+    padding-bottom: 8px;
+}
+
+
+.slied .slied-cnt p {
+    font-size: 15px;
+    line-height: 26px;
+    
+}
+
+.fromS .form-group .subscribe {
+    right: -34px;
+}
+
+
+
+
+
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+
+    .banner .banner-slied-box {
+     left: 83px;
+ }
+
+ 
+ }
+
+

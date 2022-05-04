@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+
+}
+
+/* menu */
+
+
+.travel-site .navbar-light .navbar-nav .nav-link {
+    padding: 13px 47px;
+    font-size: 18px;
+    color: #817979;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+
+.travel-site .navbar-light .navbar-nav .nav-link:hover{
+    color: #817979;
+    background-color: #deb37e;
+}
+
+
+/* banner */
+
+
+.banner .banner-cnt{
+	max-width: 478px;
+}
+
+.banner .banner-slied-box{
+	position: absolute;
+	top: 33%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-33%);
+}
+
+.banner .banner-cnt h1 {
+    font-size: 75px;
+    font-weight: 600;
+    color: #deb37e;  
+    text-shadow: 5px 0px 5px #54524f;
+     padding-bottom: 5px;
+}
+
+.banner .banner-cnt h5 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+
+
+
+.banner  .btn.banner-btn {
+    line-height: 18px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 36px;
+    background-color: #e2a355;
+    border-radius: 36px;
+    border: none;
+    transition: 0.5s;
+}
+.banner .btn.banner-btn:focus{
+	box-shadow: none;
+	outline: 0;
+}
+
+
+.banner .btn.banner-btn:hover{
+    border: 2px solid #000; 
+    color: #e2a355;
+    background: transparent;
+
+}
+
+.banner .banner-cnt p {
+    font-size: 15px;
+    color: #877f7f;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.banner .owl-nav{
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.banner .owl-prev {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: block;
+    background-color: red !important;
+    width: 50px;
+    height: 50px;
+    font-size: 30px !important;
+    color: #fff !important;
+}
+
+.banner .owl-next{
+    position: absolute;
+    top: 0;
+    right:10px;
+    display: block;
+    background-color: red !important;
+    width: 50px;
+    height: 50px;
+    font-size: 30px !important;
+    color: #fff !important;
+
+}
+
+.banner .owl-dots{
+	position: absolute;
+	bottom: 70px;
+	width: 100%;
+	
+}
+
+.banner .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #d13869;
+    border: 2px solid;
+    
+}
+
+
+.banner .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #c72121;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+
+.travel-site .banner{
+    padding-bottom: 100px;
+}
+
+
+/* LET´S go */
+
+.travel-site .letsGo{
+    position: relative;
+}
+
+.travel-site .letsGo:before {
+    content: " ";
+    background: url(../images/shep.jpg) no-repeat;
+    background-size: auto;
+    width: 508px;
+    height: 882px;
+    display: block;
+    top: 63%;
+    left: 0px;
+    position: absolute;
+    z-index: -2;
+}
+
+
+.travel-site .letgo-cnt{
+    max-width: 754px;
+}
+
+
+.letgo-cnt h2{
+    font-size: 68px;
+    font-weight: 800;
+    color: #e2a355;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+
+}
+
+.letgo-cnt p {
+    font-size: 24px;
+    color: #7f7770;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.travel-site .letsGo .card{
+    background-color: #7f7770;
+    border: none;
+    border-radius:0;
+   margin-top: 20px;
+
+}
+
+.letsGo .card .card-cnt h5 {
+    font-size: 27px;
+    color: #fff;
+    margin-top: 6px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+
+.letsGo .card .card-cnt p {
+    font-size: 23px;
+    color: #fff;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+
+/* card-btn-s */
+
+.card-btn-s .card-btn {
+    line-height: 18px;
+    color: #fff;
+    padding: 28px 86px;
+    border-radius: 76px;
+    background-color: #7f7770;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+/* discount */
+
+
+
+.discount{
+    margin-top: 150px;
+
+}
+
+.discount .container-fluid{
+    padding: 0px;
+    background-color: #7f7770;
+}
+
+.discount .container-fluid .row{
+   margin: 0px;
+}
+.discount img{
+    height: 780px;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+
+
+
+.discount .container-fluid .row [class*=col-]{
+    padding: 0px;
+}
+
+
+
+
+
+.discount .discount-cnt h2 {
+    font-size: 52px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.discount .discount-cnt {
+  max-width: 571px;
+  padding: 194px 0 0 59px;
+  
+}
+
+.discount .discount-cnt p {
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.discount .discount-btn {
+    padding: 8px 46px;
+    font-size: 29px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 46px;
+    background-color: #e2a355;
+}
+
+/* janruary */
+
+.janruary .j-img img{
+    width: 100%;
+    height: 780px;
+    object-fit: cover;
+    object-position: center;
+} 
+
+.janruary .container-fluid{
+    padding: 0px;
+    background-color: #deb37e;
+}
+
+.janruary .container-fluid .row{
+    margin: 0px;
+}
+
+.janruary .january-cnt{
+    max-width:736px;
+    padding: 203px 0px 0px 150px;
+}
+
+
+.janruary .container-fluid .row [class*=col-]{
+    padding: 0px;
+}
+
+.janruary .january-cnt h2{
+     font-size: 52px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 4px;
+
+}
+
+.janruary .january-cnt p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.janruary .january-btn {
+    padding: 8px 46px;
+    font-size: 29px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 46px;
+    background-color: #e2a355;
+}
+
+/* slied */
+
+
+.travel-site .testimonial{
+    position: relative;
+}
+
+.travel-site .testimonial:before{
+    content: " ";
+    position: absolute;
+    display: block;
+    background: url('../images/shep2.jpg') no-repeat;
+    background-size: auto;
+    top: 0;
+    right: 0;
+    width: 554px;
+    height: 523px;
+    z-index: -4;
+}
+
+
+
+
+
+.slied .card{
+    border: none;
+    margin-top: 60px;
+} 
+.slied .slied-cnt h2 {
+    font-size: 20px;
+    color: #e2a355;
+    font-weight: 600;
+}
+
+.slied .slied-cnt p {
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+
+/* testimonial */
+.testimonial .item{
+    margin-top: 30px;
+}
+
+.testimonial .testimonial-cnt{
+    max-width: 666px;
+}
+
+.testimonial-cnt p {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.testimonial-cnt h5{
+    color: #e2a355;
+    font-size: 21px;
+
+}
+
+
+.testimonial .t-icon i {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 21px;
+    background-color: #e2a355;
+    border-radius: 50px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+
+.testimonial .heading h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+ .testimonial .fancy span {
+  display: inline-block;
+  position: relative;  
+}
+
+.testimonial .fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  border-bottom: 1px solid #e2a355;
+  top: 40%;
+  transform: translateY(-40%);
+  width: 100px;
+}
+
+.testimonial .fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.testimonial .fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+/* fromS */
+
+.fromS .title{
+    max-width: 658px;
+}
+
+.travel-site .fromS{
+    background-color: #deb37e;
+    margin-top: 240px;
+    padding-bottom: 30px;
+    
+
+}
+.fromS .title h2 {
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 30px;
+}
+
+
+.fromS .title p {
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+
+.fromS .form-group input{
+    width: 659px;
+    height: 63px;
+    border-radius: 63px;
+}
+
+.fromS .form-group input:focus{
+    outline: 0;
+    box-shadow: none;
+
+   
+}
+
+.fromS .form-group .subscribe {
+    border-radius: 45px;
+    border: none;
+    font-size: 25px;
+    color: #fff;
+    background-color: #54524f;
+    text-transform: uppercase;
+    padding: 23px 45px;
+    line-height: 18px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    cursor: pointer;
+}
+
+.fromS .form-group .subscribe:focus{
+  outline: 0;
+}
